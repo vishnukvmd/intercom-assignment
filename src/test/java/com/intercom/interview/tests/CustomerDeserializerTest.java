@@ -4,18 +4,12 @@ import com.google.gson.JsonSyntaxException;
 import com.intercom.interview.test.deserializers.CustomerDeserializer;
 import com.intercom.interview.test.models.Customer;
 
-import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
 public class CustomerDeserializerTest {
-    private CustomerDeserializer customerDeserializer;
-
-    @Before
-    public void setup() {
-        customerDeserializer = new CustomerDeserializer();
-    }
+    private final CustomerDeserializer customerDeserializer = new CustomerDeserializer();
 
     @Test
     public void testValidCustomerDeserialization() {
