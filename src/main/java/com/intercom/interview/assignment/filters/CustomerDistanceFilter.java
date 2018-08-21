@@ -5,11 +5,11 @@ import com.intercom.interview.assignment.models.Location;
 
 import static com.intercom.interview.assignment.util.DistanceComputer.computeDistance;
 
-public class DistanceFilter extends Filter<CustomerRecord> {
+public class CustomerDistanceFilter extends Filter<CustomerRecord> {
     private final Location location;
     private final long radiusInKms;
 
-    public DistanceFilter(Location sourceLocation, long radiusInKms) {
+    public CustomerDistanceFilter(Location sourceLocation, long radiusInKms) {
         this.location = sourceLocation;
         this.radiusInKms = radiusInKms;
     }
