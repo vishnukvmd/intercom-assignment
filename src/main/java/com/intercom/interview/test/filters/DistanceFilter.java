@@ -1,13 +1,13 @@
 package com.intercom.interview.test.filters;
 
-import com.intercom.interview.test.models.Customer;
+import com.intercom.interview.test.models.CustomerRecord;
 import com.intercom.interview.test.models.Location;
 
 import java.util.function.Predicate;
 
 import static com.intercom.interview.test.util.DistanceComputer.computeDistance;
 
-public class DistanceFilter implements Predicate<Customer> {
+public class DistanceFilter implements Predicate<CustomerRecord> {
     private final Location location;
     private final long radiusInKms;
 
@@ -17,7 +17,7 @@ public class DistanceFilter implements Predicate<Customer> {
     }
 
     @Override
-    public boolean test(Customer customer) {
-        return computeDistance(location, customer.location) <= radiusInKms;
+    public boolean test(CustomerRecord customerRecord) {
+        return computeDistance(location, customerRecord.location) <= radiusInKms;
     }
 }

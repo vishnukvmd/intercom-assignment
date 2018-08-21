@@ -1,13 +1,13 @@
 package com.intercom.interview.test.io;
 
-import com.intercom.interview.test.models.Customer;
+import com.intercom.interview.test.models.CustomerRecord;
 
 import java.util.List;
 
 public class PrettyPrinter {
-    public static void printCustomers(List<Customer> customers) {
-        for (Customer customer : customers) {
-            System.out.println(customer.id + "\t" + customer.name);
+    public static void printCustomers(List<CustomerRecord> customerRecords) {
+        for (CustomerRecord customerRecord : customerRecords) {
+            System.out.println(customerRecord.id + "\t" + customerRecord.name);
         }
     }
 }

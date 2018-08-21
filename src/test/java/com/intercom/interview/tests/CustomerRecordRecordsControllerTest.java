@@ -1,7 +1,7 @@
 package com.intercom.interview.tests;
 
 import com.intercom.interview.test.controllers.CustomerRecordsController;
-import com.intercom.interview.test.models.Customer;
+import com.intercom.interview.test.models.CustomerRecord;
 
 import org.junit.Test;
 
@@ -10,7 +10,7 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
-public class CustomerRecordsControllerTest {
+public class CustomerRecordRecordsControllerTest {
     private final CustomerRecordsController controller = new CustomerRecordsController();
 
     @Test
@@ -21,7 +21,7 @@ public class CustomerRecordsControllerTest {
         input.add(firstCustomer);
         input.add(secondCustomer);
 
-        List<Customer> records = controller.getRecords(input);
+        List<CustomerRecord> records = controller.getRecords(input);
 
         assertEquals(records.size(), 1);
         assertEquals(records.get(0).id, 2);

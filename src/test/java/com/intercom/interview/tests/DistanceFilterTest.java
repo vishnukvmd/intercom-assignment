@@ -1,7 +1,7 @@
 package com.intercom.interview.tests;
 
 import com.intercom.interview.test.filters.DistanceFilter;
-import com.intercom.interview.test.models.Customer;
+import com.intercom.interview.test.models.CustomerRecord;
 import com.intercom.interview.test.models.Location;
 
 import org.junit.Test;
@@ -14,13 +14,13 @@ public class DistanceFilterTest {
 
     @Test
     public void testNearbyCustomer() {
-        Customer nearByCustomer = new Customer(1, "Nearby Customer", new Location(28.5655129, 77.1917786));
+        CustomerRecord nearByCustomer = new CustomerRecord(1, "Nearby Customer", new Location(28.5655129, 77.1917786));
         assertEquals(distanceFilter.test(nearByCustomer), true);
     }
 
     @Test
     public void testFarawayCustomer() {
-        Customer farAwayCustomer = new Customer(1, "Faraway Customer", new Location(27.1750151, 78.0399665));
+        CustomerRecord farAwayCustomer = new CustomerRecord(1, "Faraway Customer", new Location(27.1750151, 78.0399665));
         assertEquals(distanceFilter.test(farAwayCustomer), false);
     }
 }

@@ -1,10 +1,10 @@
 package com.intercom.interview.test.models;
 
-public class Customer extends Record {
+public class CustomerRecord extends Record {
     public final String name;
     public final Location location;
 
-    public Customer(long id, String name, Location location) {
+    public CustomerRecord(long id, String name, Location location) {
         super(id);
         this.name = name;
         this.location = location;

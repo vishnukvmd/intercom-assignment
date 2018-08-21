@@ -1,7 +1,7 @@
 package com.intercom.interview.tests;
 
 import com.intercom.interview.test.io.PrettyPrinter;
-import com.intercom.interview.test.models.Customer;
+import com.intercom.interview.test.models.CustomerRecord;
 import com.intercom.interview.test.models.Location;
 
 import org.junit.After;
@@ -26,12 +26,12 @@ public class PrettyPrinterTest {
 
     @Test
     public void testPrintStatements() {
-        Customer firstCustomer = new Customer(1, "Ewa", new Location(53.339428, -6.257664));
-        Customer secondCustomer = new Customer(2, "Vishnu", new Location(28.564188060311675, 77.1939073787088));
-        List<Customer> customers = new ArrayList<>();
-        customers.add(firstCustomer);
-        customers.add(secondCustomer);
-        PrettyPrinter.printCustomers(customers);
+        CustomerRecord firstCustomer = new CustomerRecord(1, "Ewa", new Location(53.339428, -6.257664));
+        CustomerRecord secondCustomer = new CustomerRecord(2, "Vishnu", new Location(28.564188060311675, 77.1939073787088));
+        List<CustomerRecord> customerRecords = new ArrayList<>();
+        customerRecords.add(firstCustomer);
+        customerRecords.add(secondCustomer);
+        PrettyPrinter.printCustomers(customerRecords);
         assertEquals(temporaryOutputStream.toString(), "1\tEwa\n2\tVishnu\n");
     }
 
