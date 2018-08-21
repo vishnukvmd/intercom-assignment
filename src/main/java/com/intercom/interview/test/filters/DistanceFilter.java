@@ -3,11 +3,9 @@ package com.intercom.interview.test.filters;
 import com.intercom.interview.test.models.CustomerRecord;
 import com.intercom.interview.test.models.Location;
 
-import java.util.function.Predicate;
-
 import static com.intercom.interview.test.util.DistanceComputer.computeDistance;
 
-public class DistanceFilter implements Predicate<CustomerRecord> {
+public class DistanceFilter extends Filter<CustomerRecord> {
     private final Location location;
     private final long radiusInKms;
 

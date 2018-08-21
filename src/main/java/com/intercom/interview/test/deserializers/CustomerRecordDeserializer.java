@@ -5,14 +5,12 @@ import com.google.gson.JsonParser;
 import com.intercom.interview.test.models.CustomerRecord;
 import com.intercom.interview.test.models.Location;
 
-import java.util.function.Function;
-
 import static com.intercom.interview.test.models.CustomerRecord.Fields.latitude;
 import static com.intercom.interview.test.models.CustomerRecord.Fields.longitude;
 import static com.intercom.interview.test.models.CustomerRecord.Fields.name;
 import static com.intercom.interview.test.models.CustomerRecord.Fields.user_id;
 
-public class CustomerRecordDeserializer implements Function<String, CustomerRecord> {
+public class CustomerRecordDeserializer extends RecordDeserializer<CustomerRecord> {
     private static final JsonParser PARSER = new JsonParser();
 
     @Override

@@ -1,6 +1,8 @@
 package com.intercom.interview.tests;
 
 import com.intercom.interview.test.controllers.RecordsController;
+import com.intercom.interview.test.deserializers.RecordDeserializer;
+import com.intercom.interview.test.filters.Filter;
 import com.intercom.interview.test.models.Record;
 
 import org.junit.Before;
@@ -10,8 +12,6 @@ import org.mockito.MockitoAnnotations;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Function;
-import java.util.function.Predicate;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Matchers.any;
@@ -20,9 +20,9 @@ import static org.mockito.Mockito.when;
 
 public class RecordsControllerTest {
     @Mock
-    private Function<String, Record> deserializer;
+    private RecordDeserializer<Record> deserializer;
     @Mock
-    private Predicate<Record> filter;
+    private Filter<Record> filter;
 
     @Before
     public void setUp() {
