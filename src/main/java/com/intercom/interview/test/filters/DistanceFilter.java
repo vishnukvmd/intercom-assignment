@@ -5,7 +5,7 @@ import com.intercom.interview.test.models.Location;
 
 import java.util.function.Predicate;
 
-import static com.intercom.interview.test.DistanceComputer.computeDistance;
+import static com.intercom.interview.test.util.DistanceComputer.computeDistance;
 
 public class DistanceFilter implements Predicate<Customer> {
     private final Location location;

@@ -1,4 +1,4 @@
-package com.intercom.interview.test;
+package com.intercom.interview.test.util;
 
 import com.intercom.interview.test.models.Location;
 

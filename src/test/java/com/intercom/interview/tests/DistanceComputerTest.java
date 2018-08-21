@@ -1,6 +1,6 @@
 package com.intercom.interview.tests;
 
-import com.intercom.interview.test.DistanceComputer;
+import com.intercom.interview.test.util.DistanceComputer;
 import com.intercom.interview.test.models.Location;
 
 import org.junit.Test;
