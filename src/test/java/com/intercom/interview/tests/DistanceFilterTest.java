@@ -1,8 +1,8 @@
 package com.intercom.interview.tests;
 
-import com.intercom.interview.test.filters.DistanceFilter;
-import com.intercom.interview.test.models.CustomerRecord;
-import com.intercom.interview.test.models.Location;
+import com.intercom.interview.assignment.filters.DistanceFilter;
+import com.intercom.interview.assignment.models.CustomerRecord;
+import com.intercom.interview.assignment.models.Location;
 
 import org.junit.Test;
 

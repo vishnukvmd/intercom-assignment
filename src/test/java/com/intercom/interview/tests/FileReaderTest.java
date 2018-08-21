@@ -1,6 +1,6 @@
 package com.intercom.interview.tests;
 
-import com.intercom.interview.test.io.FileReader;
+import com.intercom.interview.assignment.io.FileReader;
 
 import org.junit.Test;
 

@@ -1,9 +1,9 @@
-package com.intercom.interview.test.filters;
+package com.intercom.interview.assignment.filters;
 
-import com.intercom.interview.test.models.CustomerRecord;
-import com.intercom.interview.test.models.Location;
+import com.intercom.interview.assignment.models.CustomerRecord;
+import com.intercom.interview.assignment.models.Location;
 
-import static com.intercom.interview.test.util.DistanceComputer.computeDistance;
+import static com.intercom.interview.assignment.util.DistanceComputer.computeDistance;
 
 public class DistanceFilter extends Filter<CustomerRecord> {
     private final Location location;

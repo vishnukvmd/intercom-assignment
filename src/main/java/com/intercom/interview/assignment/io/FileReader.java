@@ -1,4 +1,4 @@
-package com.intercom.interview.test.io;
+package com.intercom.interview.assignment.io;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;

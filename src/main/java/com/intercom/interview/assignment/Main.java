@@ -1,9 +1,9 @@
-package com.intercom.interview.test;
+package com.intercom.interview.assignment;
 
-import com.intercom.interview.test.controllers.CustomerRecordsController;
-import com.intercom.interview.test.io.FileReader;
-import com.intercom.interview.test.io.PrettyPrinter;
-import com.intercom.interview.test.models.CustomerRecord;
+import com.intercom.interview.assignment.controllers.CustomerRecordsController;
+import com.intercom.interview.assignment.io.FileReader;
+import com.intercom.interview.assignment.io.PrettyPrinter;
+import com.intercom.interview.assignment.models.CustomerRecord;
 
 import java.io.IOException;
 import java.util.List;

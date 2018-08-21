@@ -1,14 +1,14 @@
-package com.intercom.interview.test.deserializers;
+package com.intercom.interview.assignment.deserializers;
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import com.intercom.interview.test.models.CustomerRecord;
-import com.intercom.interview.test.models.Location;
+import com.intercom.interview.assignment.models.CustomerRecord;
+import com.intercom.interview.assignment.models.Location;
 
-import static com.intercom.interview.test.models.CustomerRecord.Fields.latitude;
-import static com.intercom.interview.test.models.CustomerRecord.Fields.longitude;
-import static com.intercom.interview.test.models.CustomerRecord.Fields.name;
-import static com.intercom.interview.test.models.CustomerRecord.Fields.user_id;
+import static com.intercom.interview.assignment.models.CustomerRecord.Fields.latitude;
+import static com.intercom.interview.assignment.models.CustomerRecord.Fields.longitude;
+import static com.intercom.interview.assignment.models.CustomerRecord.Fields.name;
+import static com.intercom.interview.assignment.models.CustomerRecord.Fields.user_id;
 
 public class CustomerRecordDeserializer extends RecordDeserializer<CustomerRecord> {
     private static final JsonParser PARSER = new JsonParser();

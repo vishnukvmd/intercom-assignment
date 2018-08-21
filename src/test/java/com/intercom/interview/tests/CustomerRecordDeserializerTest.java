@@ -1,8 +1,8 @@
 package com.intercom.interview.tests;
 
 import com.google.gson.JsonSyntaxException;
-import com.intercom.interview.test.deserializers.CustomerRecordDeserializer;
-import com.intercom.interview.test.models.CustomerRecord;
+import com.intercom.interview.assignment.deserializers.CustomerRecordDeserializer;
+import com.intercom.interview.assignment.models.CustomerRecord;
 
 import org.junit.Test;
 

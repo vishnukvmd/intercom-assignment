@@ -1,4 +1,4 @@
-package com.intercom.interview.test.models;
+package com.intercom.interview.assignment.models;
 
 public class Record {
     public final long id;

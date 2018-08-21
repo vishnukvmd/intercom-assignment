@@ -1,6 +1,6 @@
-package com.intercom.interview.test.filters;
+package com.intercom.interview.assignment.filters;
 
-import com.intercom.interview.test.models.Record;
+import com.intercom.interview.assignment.models.Record;
 
 import java.util.function.Predicate;
 

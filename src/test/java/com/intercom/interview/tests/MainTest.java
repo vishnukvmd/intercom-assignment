@@ -1,6 +1,6 @@
 package com.intercom.interview.tests;
 
-import com.intercom.interview.test.Main;
+import com.intercom.interview.assignment.Main;
 
 import org.junit.Test;
 

@@ -27,7 +27,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.intercom.interview.test.Main</mainClass>
+                            <mainClass>com.intercom.interview.assignment.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

@@ -1,7 +1,7 @@
 package com.intercom.interview.tests;
 
-import com.intercom.interview.test.controllers.CustomerRecordsController;
-import com.intercom.interview.test.models.CustomerRecord;
+import com.intercom.interview.assignment.controllers.CustomerRecordsController;
+import com.intercom.interview.assignment.models.CustomerRecord;
 
 import org.junit.Test;
 

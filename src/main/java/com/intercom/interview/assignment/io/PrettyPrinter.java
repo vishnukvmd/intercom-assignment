@@ -1,6 +1,6 @@
-package com.intercom.interview.test.io;
+package com.intercom.interview.assignment.io;
 
-import com.intercom.interview.test.models.CustomerRecord;
+import com.intercom.interview.assignment.models.CustomerRecord;
 
 import java.util.List;
 

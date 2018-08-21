@@ -1,8 +1,8 @@
-package com.intercom.interview.test.controllers;
+package com.intercom.interview.assignment.controllers;
 
-import com.intercom.interview.test.deserializers.RecordDeserializer;
-import com.intercom.interview.test.filters.Filter;
-import com.intercom.interview.test.models.Record;
+import com.intercom.interview.assignment.deserializers.RecordDeserializer;
+import com.intercom.interview.assignment.filters.Filter;
+import com.intercom.interview.assignment.models.Record;
 
 import java.util.Comparator;
 import java.util.List;

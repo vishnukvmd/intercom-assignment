@@ -1,6 +1,6 @@
-package com.intercom.interview.test.deserializers;
+package com.intercom.interview.assignment.deserializers;
 
-import com.intercom.interview.test.models.Record;
+import com.intercom.interview.assignment.models.Record;
 
 import java.util.function.Function;
 

@@ -1,6 +1,6 @@
-package com.intercom.interview.test.util;
+package com.intercom.interview.assignment.util;
 
-import com.intercom.interview.test.models.Location;
+import com.intercom.interview.assignment.models.Location;
 
 import static java.lang.Math.acos;
 import static java.lang.Math.cos;

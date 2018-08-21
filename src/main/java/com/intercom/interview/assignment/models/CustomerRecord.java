@@ -1,4 +1,4 @@
-package com.intercom.interview.test.models;
+package com.intercom.interview.assignment.models;
 
 public class CustomerRecord extends Record {
     public final String name;

@@ -1,6 +1,6 @@
-package com.intercom.interview.test;
+package com.intercom.interview.assignment;
 
-import com.intercom.interview.test.models.Location;
+import com.intercom.interview.assignment.models.Location;
 
 public class Config {
     public static final Location OFFICE_LOCATION = new Location(53.339428, -6.257664);
