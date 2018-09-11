@@ -34,7 +34,7 @@ public class RecordsController<T extends Record> {
         return records;
     }
 
-    private void sortRecords(List<T> customers) {
-        customers.sort(Comparator.comparingLong(o -> o.id));
+    private void sortRecords(List<T> records) {
+        records.sort(Comparator.comparingLong(record -> record.id));
     }
 }
